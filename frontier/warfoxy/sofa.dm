@@ -1,7 +1,7 @@
 /obj/structure/bed/sofa
 	name = "leather sofa"
 	desc = "A wide and comfy sofa - no one assistant was ate by it due production! It's made of steel and covered with synthetic leather."
-	icon = 'updates/warfoxy/sofa.dmi'
+	icon = 'frontier/warfoxy/sofa.dmi'
 	icon_state = "sofa_right"
 	buckle_dir = 0
 	buckle_lying = 0
