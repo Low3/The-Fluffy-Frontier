@@ -466,9 +466,9 @@ var/world_topic_spam_protect_time = world.timeofday
 
 		*/
 
-	Master.Shutdown()
-
 	TgsReboot()
+
+	Master.Shutdown()
 
 	if(config.server)	//if you set a server location in config.txt, it sends you there instead of trying to reconnect to the same world address. -- NeoFite
 		for(var/client/C in GLOB.clients)
