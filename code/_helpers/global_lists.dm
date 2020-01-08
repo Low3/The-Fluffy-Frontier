@@ -75,6 +75,13 @@ var/global/list/string_slot_flags = list(
 	"holster" = SLOT_HOLSTER
 )
 
+var/global/list/player_sizes_list = list(
+		"Macro" 	= RESIZE_HUGE,
+		"Big" 		= RESIZE_BIG,
+		"Normal" 	= RESIZE_NORMAL,
+		"Small" 	= RESIZE_SMALL,
+		"Tiny" 		= RESIZE_TINY)
+
 //////////////////////////
 /////Initial Building/////
 //////////////////////////

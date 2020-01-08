@@ -466,9 +466,9 @@ var/world_topic_spam_protect_time = world.timeofday
 
 		*/
 
-	Master.Shutdown()
-
 	TgsReboot()
+
+	Master.Shutdown()
 
 	if(config.server)	//if you set a server location in config.txt, it sends you there instead of trying to reconnect to the same world address. -- NeoFite
 		for(var/client/C in GLOB.clients)
@@ -555,7 +555,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://discordapp.com/invite/Rav2Z6c/\">" //Change this to wherever you want the hub to link to.
+	s += "<a href=\"https://discordapp.com/invite/5GvhwtY/\">" //Change this to wherever you want the hub to link to.
 //	s += "[game_version]"
 	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
