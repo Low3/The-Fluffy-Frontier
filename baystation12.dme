@@ -3203,6 +3203,7 @@
 #include "code\unit_tests\virtual_mob_tests.dm"
 #include "code\unit_tests\zas_tests.dm"
 #include "code\unit_tests\~helpers.dm"
+#include "frontier\code\modules\client\saves_fix.dm"
 #include "frontier\warfoxy\hair.dm"
 #include "frontier\warfoxy\jukebox.dm"
 #include "frontier\warfoxy\sofa.dm"
