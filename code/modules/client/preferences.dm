@@ -81,7 +81,7 @@ datum/preferences
 		dat += "<a href='?src=\ref[src];reload=1'>Перезагрузить слот</a>"
 
 	else
-		dat += "Please create an account to save your preferences."
+		dat += "Если вы видите этот текст, то закройте это окно и нажмите кнопку Fix characters load во вкладке ООС."
 
 	dat += "<br>"
 	dat += player_setup.header()
