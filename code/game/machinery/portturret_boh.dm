@@ -4,9 +4,9 @@
 // Turret
 /////////
 /obj/machinery/porta_turret/exterior
-	health = 250
-	maxhealth = 250
-	auto_repair = 1
+	health = 150
+	maxhealth = 150
+	auto_repair = 0 // Too much for this sentry with 250 hp and self-repair.
 	locked = 1
 	controllock = 1
 	icon_state = "gun_turret" // for mapping. No difference in game.
