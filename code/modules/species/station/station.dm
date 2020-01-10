@@ -116,7 +116,7 @@
 	max_age = 90
 
 	burn_mod = 0.9
-	oxy_mod = 1.3
+	oxy_mod = 0.8 //(TFF/inf) Actually a coder of bs12 says that 1.3 due special breathing system, but he was unable to create so complex breath system, so....it fixed on inf, so...
 	flash_mod = 1.2
 	toxins_mod = 0.8
 	siemens_coefficient = 1.3
