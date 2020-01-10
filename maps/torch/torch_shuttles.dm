@@ -433,7 +433,7 @@ TORCH_ESCAPE_POD(17)
 	landmark_tag = "nav_transit_guppy"
 
 /datum/shuttle/autodock/overmap/aquila
-	name = "NTSC Byakhee"
+	name = "NTSC Eagle"
 	move_time = 60
 	shuttle_area = list(/area/aquila/cockpit, /area/aquila/maintenance, /area/aquila/storage, /area/aquila/secure_storage, /area/aquila/mess, /area/aquila/passenger, /area/aquila/medical, /area/aquila/head, /area/aquila/airlock)
 	current_location = "nav_hangar_aquila"
@@ -445,7 +445,7 @@ TORCH_ESCAPE_POD(17)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
 
 /obj/effect/shuttle_landmark/torch/hangar/aquila
-	name = "NTSC Byakhee Hangar"
+	name = "NTSC Eagle Hangar"
 	landmark_tag = "nav_hangar_aquila"
 	docking_controller = "aquila_shuttle_dock_airlock"
 	base_turf = /turf/simulated/floor/reinforced/airless

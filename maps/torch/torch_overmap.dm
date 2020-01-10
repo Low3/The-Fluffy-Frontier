@@ -9,7 +9,7 @@
 	initial_restricted_waypoints = list(
 		"NTEV Falcon" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
 		"NTRP Kestrel" = list("nav_hangar_guppy"),
-		"NTSC Byakhee" = list("nav_hangar_aquila")
+		"NTSC Eagle" = list("nav_hangar_aquila")
 	)
 
 	initial_generic_waypoints = list(
@@ -80,9 +80,9 @@
 	vessel_size = SHIP_SIZE_SMALL
 
 /obj/effect/overmap/visitable/ship/landable/aquila
-	name = "NTSC Byakhee"
+	name = "NTSC Eagle"
 	desc = "A vessel escort gunship. It bears markings of the NanoTrasen Surveyor Corps."
-	shuttle = "NTSC Byakhee"
+	shuttle = "NTSC Eagle"
 	vessel_mass = 20000
 	max_speed = 1/(1 SECONDS)
 	burn_delay = 0.5 SECONDS //spammable, but expensive
@@ -101,8 +101,8 @@
 	vessel_size = SHIP_SIZE_TINY
 
 /obj/machinery/computer/shuttle_control/explore/aquila
-	name = "Byakhee control console"
-	shuttle_tag = "NTSC Byakhee"
+	name = "Eagle control console"
+	shuttle_tag = "NTSC Eagle"
 	req_access = list(access_aquila_helm)
 
 /obj/machinery/computer/shuttle_control/explore/exploration_shuttle

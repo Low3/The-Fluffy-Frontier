@@ -373,7 +373,7 @@
 //Aquila
 
 /area/aquila
-	name = "\improper NTSC Byakhee"
+	name = "\improper NTSC Eagle"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/reinforced/airless
 	requires_power = 1
@@ -381,35 +381,35 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/aquila/cockpit
-	name = "\improper NTSC Byakhee - Cockpit"
+	name = "\improper NTSC Eagle - Cockpit"
 	req_access = list(access_aquila)
 
 /area/aquila/maintenance
-	name = "\improper NTSC Byakhee - Maintenance"
+	name = "\improper NTSC Eagle - Maintenance"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/storage
-	name = "\improper NTSC Byakhee - Storage"
+	name = "\improper NTSC Eagle - Storage"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/secure_storage
-	name = "\improper NTSC Byakhee - Secure Storage"
+	name = "\improper NTSC Eagle - Secure Storage"
 	req_access = list(access_aquila)
 
 /area/aquila/mess
-	name = "\improper NTSC Byakhee - Mess Hall"
+	name = "\improper NTSC Eagle - Mess Hall"
 
 /area/aquila/passenger
-	name = "\improper NTSC Byakhee - Passenger Compartment"
+	name = "\improper NTSC Eagle - Passenger Compartment"
 
 /area/aquila/medical
-	name = "\improper NTSC Byakhee - Medical"
+	name = "\improper NTSC Eagle - Medical"
 
 /area/aquila/head
-	name = "\improper NTSC Byakhee - Cannon"
+	name = "\improper NTSC Eagle - Cannon"
 
 /area/aquila/airlock
-	name = "\improper NTSC Byakhee - Airlock Compartment"
+	name = "\improper NTSC Eagle - Airlock Compartment"
 	req_access = list(access_solgov_crew)
 
 //Guppy

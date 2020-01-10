@@ -1,4 +1,4 @@
-var/const/NETWORK_AQUILA      = "NTSC Byakhee"
+var/const/NETWORK_AQUILA      = "NTSC Eagle"
 var/const/NETWORK_BRIDGE      = "Bridge"
 var/const/NETWORK_CALYPSO     = "NTEV Falcon"
 var/const/NETWORK_EXPEDITION  = "Expedition"

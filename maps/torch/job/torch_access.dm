@@ -22,13 +22,13 @@
 /var/const/access_aquila = "ACCESS_TORCH_AQUILA" //78
 /datum/access/aquila
 	id = access_aquila
-	desc = "NTSC Byakhee"
+	desc = "NTSC Eagle"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_aquila_helm = "ACCESS_TORCH_AQUILA_HELM" //79
 /datum/access/aquila_helm
 	id = access_aquila_helm
-	desc = "NTSC Byakhee Helm"
+	desc = "NTSC Eagle Helm"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_solgov_crew = "ACCESS_TORCH_CREW" //80
