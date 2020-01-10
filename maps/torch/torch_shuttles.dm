@@ -387,7 +387,7 @@ TORCH_ESCAPE_POD(17)
 	landmark_tag = "nav_transit_calypso"
 
 /datum/shuttle/autodock/overmap/guppy
-	name = "NTRP Garuda"
+	name = "NTRP Kestrel"
 	warmup_time = 5
 	move_time = 30
 	shuttle_area = /area/guppy_hangar/start
@@ -403,7 +403,7 @@ TORCH_ESCAPE_POD(17)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
 
 /obj/effect/shuttle_landmark/torch/hangar/guppy
-	name = "NTRP Garuda Hangar"
+	name = "NTRP Kestrel Hangar"
 	landmark_tag = "nav_hangar_guppy"
 	base_area = /area/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating

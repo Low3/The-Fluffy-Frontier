@@ -90,7 +90,7 @@
 /var/const/access_guppy = "ACCESS_TORCH_GUP" //89
 /datum/access/guppy
 	id = access_guppy
-	desc = "NTRP Garuda"
+	desc = "NTRP Kestrel"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_seneng = "ACCESS_TORCH_SENIOR_ENG" //90

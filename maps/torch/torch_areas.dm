@@ -415,7 +415,7 @@
 //Guppy
 
 /area/guppy_hangar/start
-	name = "\improper NTRP Garuda"
+	name = "\improper NTRP Kestrel"
 	icon_state = "shuttlered"
 	requires_power = 1
 	dynamic_lighting = 1
