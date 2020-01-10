@@ -13,7 +13,7 @@
 
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar/loaded
 	name = "high-powered handgun"
-	desc = "The HelTek Magnus, a robust Terran handgun that uses high-caliber ammo. This one has 'To the Chief of Security Aboard the NTSS Dagon' engraved"
+	desc = "The HelTek Magnus, a robust Terran handgun that uses high-caliber ammo. This one has 'To the Chief of Security Aboard the NTEV Blue Jay' engraved"
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 
@@ -26,7 +26,7 @@
 /obj/item/weapon/gun/projectile/pistol/holdout/cap
 	name = "Lumoco P3"
 	desc = "The Lumoco Arms P3 Whisper. A small, easily concealable gun. \
-	On the grip is bold stamped lettering, 'NTSS Dagon, Custom Order'."
+	On the grip is bold stamped lettering, 'NTEV Blue Jay, Custom Order'."
 	fire_delay = 2
 	starts_loaded = 0
 

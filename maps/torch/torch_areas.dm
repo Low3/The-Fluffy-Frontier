@@ -1192,7 +1192,7 @@
 // Command
 
 /area/bridge
-	name = "\improper NTSS Dagon Bridge"
+	name = "\improper NTEV Blue Jay Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 
