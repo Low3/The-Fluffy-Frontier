@@ -7,7 +7,7 @@
 	base = TRUE
 
 	initial_restricted_waypoints = list(
-		"NTEV Gaunt" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
+		"NTEV Falcon" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
 		"NTRP Kestrel" = list("nav_hangar_guppy"),
 		"NTSC Byakhee" = list("nav_hangar_aquila")
 	)
@@ -69,9 +69,9 @@
 	)
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
-	name = "NTEV Gaunt"
+	name = "NTEV Falcon"
 	desc = "A medium-sized long-range shuttle. It bears markings of the NanoTrasen Surveyor Corps."
-	shuttle = "NTEV Gaunt"
+	shuttle = "NTEV Falcon"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
 	vessel_mass = 5000
@@ -107,7 +107,7 @@
 
 /obj/machinery/computer/shuttle_control/explore/exploration_shuttle
 	name = "shuttle control console"
-	shuttle_tag = "NTEV Gaunt"
+	shuttle_tag = "NTEV Falcon"
 	req_access = list(access_expedition_shuttle_helm)
 
 /obj/machinery/computer/shuttle_control/explore/guppy

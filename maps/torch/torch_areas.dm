@@ -346,29 +346,29 @@
 //Charon
 
 /area/exploration_shuttle/
-	name = "\improper NTEV Gaunt"
+	name = "\improper NTEV Falcon"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/exploration_shuttle/cockpit
-	name = "\improper NTEV Gaunt - Cockpit"
+	name = "\improper NTEV Falcon - Cockpit"
 	req_access = list(access_expedition_shuttle)
 
 /area/exploration_shuttle/atmos
-	name = "\improper NTEV Gaunt - Atmos Compartment"
+	name = "\improper NTEV Falcon - Atmos Compartment"
 
 /area/exploration_shuttle/power
-	name = "\improper NTEV Gaunt - Power Compartment"
+	name = "\improper NTEV Falcon - Power Compartment"
 
 /area/exploration_shuttle/crew
-	name = "\improper NTEV Gaunt - Crew Compartment"
+	name = "\improper NTEV Falcon - Crew Compartment"
 
 /area/exploration_shuttle/cargo
-	name = "\improper NTEV Gaunt - Cargo Bay"
+	name = "\improper NTEV Falcon - Cargo Bay"
 
 /area/exploration_shuttle/airlock
-	name = "\improper NTEV Gaunt - Airlock Compartment"
+	name = "\improper NTEV Falcon - Airlock Compartment"
 
 //Aquila
 

@@ -1,6 +1,6 @@
 var/const/NETWORK_AQUILA      = "NTSC Byakhee"
 var/const/NETWORK_BRIDGE      = "Bridge"
-var/const/NETWORK_CALYPSO     = "NTEV Gaunt"
+var/const/NETWORK_CALYPSO     = "NTEV Falcon"
 var/const/NETWORK_EXPEDITION  = "Expedition"
 var/const/NETWORK_FIRST_DECK  = "First Deck"
 var/const/NETWORK_FOURTH_DECK = "Fourth Deck"

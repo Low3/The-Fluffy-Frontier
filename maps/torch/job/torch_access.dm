@@ -84,7 +84,7 @@
 /var/const/access_expedition_shuttle = "ACCESS_TORCH_EXPLO" //88
 /datum/access/exploration_shuttle
 	id = access_expedition_shuttle
-	desc = "NTEV Gaunt"
+	desc = "NTEV Falcon"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_guppy = "ACCESS_TORCH_GUP" //89
