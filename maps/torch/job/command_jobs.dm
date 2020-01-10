@@ -398,4 +398,4 @@
 							 /datum/computer_file/program/deck_management)
 
 /datum/job/bridgeofficer/get_description_blurb()
-	return "You are a Bridge Officer. You are a very junior officer. You do not give orders of your own. You are subordinate to all of command. You handle matters on the bridge and report directly to the CO and XO. You take the Dagon's helm and pilot the Byakhee if needed. You monitor bridge computer programs and communications and report relevant information to command."
+	return "You are a Bridge Officer. You are a very junior officer. You do not give orders of your own. You are subordinate to all of command. You handle matters on the bridge and report directly to the CO and XO. You take the Blue Jay's helm and pilot the Eagle if needed. You monitor bridge computer programs and communications and report relevant information to command."

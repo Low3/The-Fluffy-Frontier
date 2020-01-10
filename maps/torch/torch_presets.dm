@@ -1,17 +1,17 @@
-var/const/NETWORK_AQUILA      = "NTSC Byakhee"
+var/const/NETWORK_AQUILA      = "NTSC Eagle"
 var/const/NETWORK_BRIDGE      = "Bridge"
-var/const/NETWORK_CALYPSO     = "NTEV Gaunt"
+var/const/NETWORK_CALYPSO     = "NTEV Falcon"
 var/const/NETWORK_EXPEDITION  = "Expedition"
 var/const/NETWORK_FIRST_DECK  = "First Deck"
 var/const/NETWORK_FOURTH_DECK = "Fourth Deck"
-var/const/NETWORK_POD         = "NTRP Garuda"
+var/const/NETWORK_POD         = "NTRP Kestrel"
 var/const/NETWORK_SECOND_DECK = "Second Deck"
 var/const/NETWORK_SUPPLY      = "Supply"
 var/const/NETWORK_HANGAR      = "Hangar"
 var/const/NETWORK_EXPLO       = "Exploration"
 var/const/NETWORK_THIRD_DECK  = "Third Deck"
 var/const/NETWORK_FIFTH_DECK  = "Fifth Deck"
-var/const/NETWORK_NANOTRASEN  = "NTRL Polyp"
+var/const/NETWORK_NANOTRASEN  = "NTRL Owl"
 
 /datum/map/torch/get_network_access(var/network)
 	switch(network)

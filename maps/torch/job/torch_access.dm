@@ -22,13 +22,13 @@
 /var/const/access_aquila = "ACCESS_TORCH_AQUILA" //78
 /datum/access/aquila
 	id = access_aquila
-	desc = "NTSC Byakhee"
+	desc = "NTSC Eagle"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_aquila_helm = "ACCESS_TORCH_AQUILA_HELM" //79
 /datum/access/aquila_helm
 	id = access_aquila_helm
-	desc = "NTSC Byakhee Helm"
+	desc = "NTSC Eagle Helm"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_solgov_crew = "ACCESS_TORCH_CREW" //80
@@ -84,13 +84,13 @@
 /var/const/access_expedition_shuttle = "ACCESS_TORCH_EXPLO" //88
 /datum/access/exploration_shuttle
 	id = access_expedition_shuttle
-	desc = "NTEV Gaunt"
+	desc = "NTEV Falcon"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_guppy = "ACCESS_TORCH_GUP" //89
 /datum/access/guppy
 	id = access_guppy
-	desc = "NTRP Garuda"
+	desc = "NTRP Kestrel"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_seneng = "ACCESS_TORCH_SENIOR_ENG" //90
@@ -163,53 +163,53 @@
 /var/const/access_petrov = "ACCESS_TORCH_PETROV" //200
 /datum/access/petrov
 	id = access_petrov
-	desc = "NTRL Polyp"
+	desc = "NTRL Owl"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_helm = "ACCESS_TORCH_PETROV_HELM" //201
 /datum/access/petrov_helm
 	id = access_petrov_helm
-	desc = "NTRL Polyp Helm"
+	desc = "NTRL Owl Helm"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_analysis = "ACCESS_TORCH_PETROV_ANALYSIS" //202
 /datum/access/petrov_analysis
 	id = access_petrov_analysis
-	desc = "NTRL Polyp Analysis Lab"
+	desc = "NTRL Owl Analysis Lab"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_phoron = "ACCESS_TORCH_PETROV_PHORON" //203
 /datum/access/petrov_phoron
 	id = access_petrov_phoron
-	desc = "NTRL Polyp Phoron Sublimation Lab"
+	desc = "NTRL Owl Phoron Sublimation Lab"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_toxins = "ACCESS_TORCH_PETROV_TOXINS" //204
 /datum/access/petrov_toxins
 	id = access_petrov_toxins
-	desc = "NTRL Polyp Toxins Lab"
+	desc = "NTRL Owl Toxins Lab"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_chemistry = "ACCESS_TORCH_PETROV_CHEMISTRY" //205
 /datum/access/petrov_chemistry
 	id = access_petrov_chemistry
-	desc = "NTRL Polyp Chemistry Lab"
+	desc = "NTRL Owl Chemistry Lab"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_rd = "ACCESS_TORCH_PETROV_RD" //206
 /datum/access/petrov_rd
 	id = access_petrov_rd
-	desc = "NTRL Polyp Chief Science Officer's Office"
+	desc = "NTRL Owl Chief Science Officer's Office"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_security = "ACCESS_TORCH_PETROV_SEC" //207
 /datum/access/petrov_security
 	id = access_petrov_security
-	desc = "NTRL Polyp Security Office"
+	desc = "NTRL Owl Security Office"
 	region = ACCESS_REGION_NT
 
 /var/const/access_petrov_maint = "ACCESS_TORCH_PETROV_MAINT" //208
 /datum/access/petrov_maint
 	id = access_petrov_maint
-	desc = "NTRL Polyp Maintenance"
+	desc = "NTRL Owl Maintenance"
 	region = ACCESS_REGION_NT
