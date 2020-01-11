@@ -47,7 +47,7 @@
 	var/thrust_limit = 1
 	var/on = 1
 	var/burn_cost = 750
-	var/generated_thrust = 2.5
+	var/generated_thrust = 5.0
 	
 /obj/machinery/ion_engine/Initialize()
 	. = ..()
