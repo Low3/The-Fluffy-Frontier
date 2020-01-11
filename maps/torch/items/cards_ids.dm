@@ -132,11 +132,6 @@
 	job_access_type = /datum/job/representative
 	detail_color = COLOR_COMMAND_BLUE
 
-/obj/item/weapon/card/id/torch/crew/sea
-	job_access_type = /datum/job/sea
-	detail_color = COLOR_COMMAND_BLUE
-	extra_details = list("onegoldstripe")
-
 /obj/item/weapon/card/id/torch/crew/bridgeofficer
 	job_access_type = /datum/job/bridgeofficer
 	detail_color = COLOR_COMMAND_BLUE
