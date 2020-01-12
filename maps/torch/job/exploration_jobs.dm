@@ -4,7 +4,7 @@
 	department_flag = EXP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Science Officer"
+	supervisors = "the Research Director"
 	selection_color = "#68099e"
 	minimal_player_age = 1
 	economic_power = 7
@@ -38,7 +38,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/pathfinder/get_description_blurb()
-	return "You are the Pathfinder. Your duty is to organize and lead the expeditions to away sites, carrying out the SC's Primary Mission. You command Explorers. You make sure that expedition has the supplies and personnel it needs. You can pilot 'NTEV Gaunt' if nobody else provides a pilot. Once on the away mission, your duty is to ensure that anything of scientific interest is brought back to the ship and passed to the relevant research lab."
+	return "You are the Pathfinder. Your duty is to organize and lead the expeditions to away sites, carrying out the SC's Primary Mission. You command Explorers. You make sure that expedition has the supplies and personnel it needs. You can pilot 'NTEV Falcon' if nobody else provides a pilot. Once on the away mission, your duty is to ensure that anything of scientific interest is brought back to the ship and passed to the relevant research lab."
 
 /datum/job/nt_pilot
 	title = "Shuttle Pilot"
@@ -55,14 +55,11 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/pilot
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/expeditionary_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/fleet
+		/datum/mil_branch/expeditionary_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/nt_pilot,
-		/datum/mil_rank/ec/e7,
-		/datum/mil_rank/fleet/e6,
-		/datum/mil_rank/fleet/e7
+		/datum/mil_rank/ec/e7
 	)
 
 	access = list(
@@ -84,7 +81,7 @@
 	department_flag = EXP
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
+	supervisors = "the Captain, Head of Personnel, and Pathfinder"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
@@ -92,7 +89,6 @@
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
 
 	allowed_ranks = list(
-		/datum/mil_rank/ec/e3,
 		/datum/mil_rank/ec/e5
 	)
 	min_skill = list(   SKILL_EVA = SKILL_BASIC)

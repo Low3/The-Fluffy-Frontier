@@ -5,7 +5,7 @@
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Science Officer"
+	supervisors = "the Research Director"
 	selection_color = "#633d63"
 	economic_power = 12
 	minimal_player_age = 3
@@ -43,7 +43,7 @@
 	title = "Scientist"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Chief Science Officer and the Workplace Liaison"
+	supervisors = "the Research Director and the Workplace Liaison"
 	economic_power = 10
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 45
@@ -66,14 +66,10 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/scientist
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/civilian,
-		/datum/mil_branch/solgov
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(,
-		/datum/mil_rank/ec/o1,
-		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/scientist,
-		/datum/mil_rank/sol/scientist = /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
+		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/scientist
 	)
 
 	access = list(access_tox, access_tox_storage, access_research, access_petrov, access_petrov_helm,
@@ -89,7 +85,7 @@
 	department_flag = SCI
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Chief Science Officer, the Workplace Liaison and science personnel"
+	supervisors = "the Research Director, the Workplace Liaison and science personnel"
 	selection_color = "#633d63"
 	economic_power = 3
 	minimum_character_age = list(SPECIES_HUMAN = 18)
@@ -103,15 +99,10 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/civilian,
-		/datum/mil_branch/solgov
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/ec/e3,
-		/datum/mil_rank/ec/e5,
-		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/assist,
-		/datum/mil_rank/sol/scientist = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov
+		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/assist
 	)
 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_DEVICES     = SKILL_MAX,
