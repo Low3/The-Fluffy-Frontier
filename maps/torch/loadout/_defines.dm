@@ -54,4 +54,4 @@
 
 #define SOLGOV_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov, /datum/mil_branch/marine_corps)
 
-#define MILITARY_BRANCHES list(/datum/mil_branch/fleet, /datum/mil_branch/marine_corps, /datum/job/submap/skrellscoutship_crew, /datum/job/submap/skrellscoutship_crew/leader)
+#define MILITARY_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/job/submap/skrellscoutship_crew, /datum/job/submap/skrellscoutship_crew/leader)

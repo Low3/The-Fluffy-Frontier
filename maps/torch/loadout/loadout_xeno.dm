@@ -1,5 +1,4 @@
 /datum/gear/suit/lab_xyn_machine
-	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/gloves/dress/modified
 	display_name = "modified gloves, dress"
@@ -14,7 +13,6 @@
 	whitelisted = list(SPECIES_UNATHI)
 
 /datum/gear/suit/unathi/savage_hunter
-	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/head/skrell_helmet
 	allowed_roles = ARMORED_ROLES
@@ -28,5 +26,4 @@
 	path = /obj/item/clothing/accessory/solgov/cultex_patch
 	description = "A shoulder patch representing the Expeditionary Corps."
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
-	whitelisted = list(SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_IPC)
 	sort_category = "Xenowear"

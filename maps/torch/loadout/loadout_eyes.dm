@@ -1,8 +1,6 @@
 /datum/gear/eyes/eyepatch
-	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/eyes/fashionglasses
-	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/eyes/sciencegoggles/New()
 	allowed_roles = RESEARCH_ROLES | EXPLORATION_ROLES
