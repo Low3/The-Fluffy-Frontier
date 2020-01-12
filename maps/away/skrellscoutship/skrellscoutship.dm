@@ -8,7 +8,7 @@
 	id = "awaysite_skrell_scout"
 	description = "A Skrellian SDTF scouting vessel."
 	suffixes = list("skrellscoutship/skrellscoutship-1.dmm", "skrellscoutship/skrellscoutship-2.dmm")
-	cost = 0.5
+	cost = 1000 //Used only when too low/too high online on BlueJay. 
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/skrellscoutship, /datum/shuttle/autodock/overmap/skrellscoutshuttle)
 	apc_test_exempt_areas = list(
 		/area/ship/skrellscoutshuttle =                NO_SCRUBBER,
@@ -18,8 +18,8 @@
 	)
 
 /obj/effect/overmap/visitable/sector/skrellscoutspace
-	name = "Empty Sector"
-	desc = "Slight traces of a cloaking device are present. Unable to determine exact location."
+	name = "ion cloud"
+	desc = "Slight traces of a strange signal are present. Unable to determine exact location."
 	in_space = 1
 	icon_state = "event"
 	hide_from_reports = TRUE
@@ -206,8 +206,8 @@
 
 /obj/machinery/power/smes/buildable/preset/skrell
 	uncreated_component_parts = list(
-		/obj/item/weapon/stock_parts/smes_coil/super_io = 2,
-		/obj/item/weapon/stock_parts/smes_coil/super_capacity = 2)
+		/obj/item/weapon/stock_parts/smes_coil/super_io = 4,
+		/obj/item/weapon/stock_parts/smes_coil/super_capacity = 4)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_input_on = TRUE
