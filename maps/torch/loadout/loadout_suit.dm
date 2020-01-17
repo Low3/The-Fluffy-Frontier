@@ -69,11 +69,9 @@
 /datum/gear/tactical/pcarrier/navy
 	display_name = "navy blue plate carrier"
 	path = /obj/item/clothing/suit/armor/pcarrier/navy
-	allowed_roles = ARMORED_ROLES
 
 /datum/gear/tactical/pcarrier/misc
 	display_name = "miscellaneous plate carrier selection"
-	allowed_roles = ARMORED_ROLES
 
 /datum/gear/tactical/pcarrier/misc/New()
 	..()

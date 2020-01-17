@@ -1,5 +1,5 @@
 /datum/gear/augmentation/mil
-	allowed_branches = MILITARY_BRANCHES
+	allowed_roles = SECURITY_ROLES
 
 /datum/gear/augmentation/mil/target_comp
 	display_name = "tactical computer"
