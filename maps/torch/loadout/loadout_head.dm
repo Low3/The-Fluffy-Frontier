@@ -25,7 +25,7 @@
 	path = /obj/item/clothing/head/soft/solgov
 
 /datum/gear/head/fleethat
-	display_name = "fleet cap"
+	display_name = "fleet hat"
 	path = /obj/item/clothing/head/solgov/utility/fleet
 	cost = 0
 
@@ -61,6 +61,7 @@
 	allowed_roles = TECHNICAL_ROLES
 
 /datum/gear/tactical/balaclava
+	allowed_roles = ARMORED_ROLES
 
 /datum/gear/head/fleetberet
 	display_name = "Fleet branch beret selection"
