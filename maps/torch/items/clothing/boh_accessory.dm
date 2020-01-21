@@ -7,7 +7,7 @@
 	icon_state = "smcpatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
-	check_codex_val = FACTION_MARINES
+	//check_codex_val = FACTION_MARINES
 
 // working title before supervisors finally decide on proper one
 /obj/item/clothing/accessory/solgov/smc_patch/xeno
