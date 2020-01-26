@@ -9,7 +9,8 @@ var/list/holder_mob_icon_cache = list()
 
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_head_vox.dmi',
-		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi'
+		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi',
+		SPECIES_RESOMI = 'frontier/icons/mob/species/resomi/onmob_head_resomi.dmi'
 		)
 
 	origin_tech = null
@@ -33,6 +34,7 @@ var/list/holder_mob_icon_cache = list()
 /obj/item/weapon/holder/Destroy()
 	for(var/atom/movable/AM in src)
 		AM.forceMove(get_turf(src))
+		unregister_all_movement(last_holder, AM)
 	last_holder = null
 	STOP_PROCESSING(SSobj, src)
 	return ..()
@@ -165,9 +167,10 @@ var/list/holder_mob_icon_cache = list()
 	return H
 
 /mob/living/MouseDrop(var/mob/living/carbon/human/over_object)
-	if(istype(over_object) && Adjacent(over_object) && (usr == src || usr == over_object) && over_object.a_intent == I_GRAB)
+	if(istype(over_object) && Adjacent(over_object) && (usr == src || usr == over_object) && over_object.a_intent == I_HELP)
 		if(scoop_check(over_object))
 			get_scooped(over_object, (usr == src))
+			over_object.regenerate_icons()
 			return
 	return ..()
 
@@ -175,11 +178,12 @@ var/list/holder_mob_icon_cache = list()
 	return 1
 
 /mob/living/carbon/human/scoop_check(var/mob/living/scooper)
-	return (scooper.mob_size > src.mob_size && a_intent == I_HELP)
+	return (scooper.mob_size > src.mob_size && (a_intent == I_HELP || src.incapacitated()))
 
 /obj/item/weapon/holder/human
 	icon = 'icons/mob/holder_complex.dmi'
 	var/list/generate_for_slots = list(slot_l_hand_str, slot_r_hand_str, slot_back_str)
+	w_class = ITEM_SIZE_LARGE
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/holder/human/sync(var/mob/living/M)
