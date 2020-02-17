@@ -5,7 +5,7 @@
 
 /datum/map/torch/get_map_info()
 	. = list()
-	. += "Поздравляем с вашим трудоустройством на борт NTSS Dagon."
+	. += "Поздравляем с вашим трудоустройством на борт NTEV (NanoTrasen Exploratory Vessel) Blue Jay."
 	. += "Это судно класса Эпсилон, оборудованное по последнему слову медицины, науки, и охранного снаряжения для всех ваших нужд!"
 	. += ""
 	. += "Это вновь введенное в эксплуатацию научное судно, реконструированное, для исследования далекого космоса."
@@ -13,7 +13,7 @@
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
-	var/welcome_text = "<center><img src = bluentlogo.png /><br /><font size = 3><b>NTSS Dagon</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><img src = bluentlogo.png /><br /><font size = 3><b>NTEV Blue Jay</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[system_name()]</b><br /><br>"
 
@@ -54,5 +54,5 @@
 		welcome_text += "<br>No distress calls logged.<br />"
 	welcome_text += "<hr>"
 
-	post_comm_message("NTSS Dagon Sensor Readings", welcome_text)
+	post_comm_message("NTEV Blue Jay Sensor Readings", welcome_text)
 	minor_announcement.Announce(message = "New [GLOB.using_map.company_name] Update available at all communication consoles.")

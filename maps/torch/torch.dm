@@ -13,7 +13,7 @@
 	#include "torch_presets.dm"
 	#include "torch_procs.dm"
 	#include "torch_ranks.dm"
-	#include "torch_ranks_boh.dm"
+	#include "torch_ranks_tff.dm"
 	#include "torch_security_state.dm"
 	#include "torch_setup.dm"
 	#include "torch_shuttles.dm"
@@ -23,8 +23,6 @@
 
 	#include "datums/uniforms.dm"
 	#include "datums/uniforms_expedition.dm"
-	#include "datums/uniforms_fleet.dm"
-	#include "datums/uniforms_marine-corps.dm"
 	#include "datums/reports/command.dm"
 	#include "datums/reports/corporate.dm"
 	#include "datums/reports/exploration.dm"
@@ -89,7 +87,7 @@
 	#include "job/security_jobs.dm"
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
-	#include "job/torch_jobs_boh.dm"
+	#include "job/torch_jobs_tff.dm"
 
 	#include "job/outfits/torch_outfits.dm"
 	#include "job/outfits/command_outfits.dm"
@@ -102,8 +100,8 @@
 	#include "job/outfits/security_outfits.dm"
 	#include "job/outfits/service_outfits.dm"
 	#include "job/outfits/supply_outfits.dm"
-	#include "job/outfits/boh_outfits.dm"
 	#include "job/outfits/unused_outfits.dm"
+	#include "job/outfits/unused_boh_outfits.dm"
 
 	#include "language/human/euro.dm"
 	#include "language/human/misc/spacer.dm"

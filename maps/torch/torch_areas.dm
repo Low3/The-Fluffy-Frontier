@@ -346,34 +346,34 @@
 //Charon
 
 /area/exploration_shuttle/
-	name = "\improper NTEV Gaunt"
+	name = "\improper NTEV Falcon"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/exploration_shuttle/cockpit
-	name = "\improper NTEV Gaunt - Cockpit"
+	name = "\improper NTEV Falcon - Cockpit"
 	req_access = list(access_expedition_shuttle)
 
 /area/exploration_shuttle/atmos
-	name = "\improper NTEV Gaunt - Atmos Compartment"
+	name = "\improper NTEV Falcon - Atmos Compartment"
 
 /area/exploration_shuttle/power
-	name = "\improper NTEV Gaunt - Power Compartment"
+	name = "\improper NTEV Falcon - Power Compartment"
 
 /area/exploration_shuttle/crew
-	name = "\improper NTEV Gaunt - Crew Compartment"
+	name = "\improper NTEV Falcon - Crew Compartment"
 
 /area/exploration_shuttle/cargo
-	name = "\improper NTEV Gaunt - Cargo Bay"
+	name = "\improper NTEV Falcon - Cargo Bay"
 
 /area/exploration_shuttle/airlock
-	name = "\improper NTEV Gaunt - Airlock Compartment"
+	name = "\improper NTEV Falcon - Airlock Compartment"
 
 //Aquila
 
 /area/aquila
-	name = "\improper NTSC Byakhee"
+	name = "\improper NTSC Eagle"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/reinforced/airless
 	requires_power = 1
@@ -381,41 +381,41 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/aquila/cockpit
-	name = "\improper NTSC Byakhee - Cockpit"
+	name = "\improper NTSC Eagle - Cockpit"
 	req_access = list(access_aquila)
 
 /area/aquila/maintenance
-	name = "\improper NTSC Byakhee - Maintenance"
+	name = "\improper NTSC Eagle - Maintenance"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/storage
-	name = "\improper NTSC Byakhee - Storage"
+	name = "\improper NTSC Eagle - Storage"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/secure_storage
-	name = "\improper NTSC Byakhee - Secure Storage"
+	name = "\improper NTSC Eagle - Secure Storage"
 	req_access = list(access_aquila)
 
 /area/aquila/mess
-	name = "\improper NTSC Byakhee - Mess Hall"
+	name = "\improper NTSC Eagle - Mess Hall"
 
 /area/aquila/passenger
-	name = "\improper NTSC Byakhee - Passenger Compartment"
+	name = "\improper NTSC Eagle - Passenger Compartment"
 
 /area/aquila/medical
-	name = "\improper NTSC Byakhee - Medical"
+	name = "\improper NTSC Eagle - Medical"
 
 /area/aquila/head
-	name = "\improper NTSC Byakhee - Cannon"
+	name = "\improper NTSC Eagle - Cannon"
 
 /area/aquila/airlock
-	name = "\improper NTSC Byakhee - Airlock Compartment"
+	name = "\improper NTSC Eagle - Airlock Compartment"
 	req_access = list(access_solgov_crew)
 
 //Guppy
 
 /area/guppy_hangar/start
-	name = "\improper NTRP Garuda"
+	name = "\improper NTRP Kestrel"
 	icon_state = "shuttlered"
 	requires_power = 1
 	dynamic_lighting = 1
@@ -426,80 +426,80 @@
 //Petrov
 
 /area/shuttle/petrov
-	name = "\improper NTRL Polyp"
+	name = "\improper NTRL Owl"
 	requires_power = 1
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	req_access = list(access_petrov)
 
 /area/shuttle/petrov/cell1
-	name = "\improper NTRL Polyp - Isolation Cell 1"
+	name = "\improper NTRL Owl - Isolation Cell 1"
 	icon_state = "shuttle"
 /area/shuttle/petrov/cell2
-	name = "\improper NTRL Polyp - Isolation Cell 2"
+	name = "\improper NTRL Owl - Isolation Cell 2"
 	icon_state = "shuttlegrn"
 /area/shuttle/petrov/cell3
-	name = "\improper NTRL Polyp - Isolation Cell 3"
+	name = "\improper NTRL Owl - Isolation Cell 3"
 	icon_state = "shuttle"
 
 /area/shuttle/petrov/hallwaya
-	name = "\improper NTRL Polyp - Lower Hallway"
+	name = "\improper NTRL Owl - Lower Hallway"
 	icon_state = "hallA"
 
 /area/shuttle/petrov/security
-	name = "\improper NTRL Polyp - Security Office"
+	name = "\improper NTRL Owl - Security Office"
 	icon_state = "checkpoint1"
 	req_access = list(access_petrov_security)
 
 /area/shuttle/petrov/rd
 	icon_state = "heads_rd"
-	name = "\improper NTRL Polyp - CSO's Office"
+	name = "\improper NTRL Owl - CSO's Office"
 	icon_state = "head_quarters"
 	req_access = list(access_petrov_rd)
 
 /area/shuttle/petrov/cockpit
-	name = "\improper NTRL Polyp - Cockpit"
+	name = "\improper NTRL Owl - Cockpit"
 	icon_state = "shuttlered"
 	req_access = list(access_petrov_helm)
 
 /area/shuttle/petrov/maint
-	name = "\improper NTRL Polyp - Maintenance"
+	name = "\improper NTRL Owl - Maintenance"
 	icon_state = "engine"
 	req_access = list(access_petrov_maint)
 
 /area/shuttle/petrov/analysis
-	name = "\improper NTRL Polyp - Analysis Lab"
+	name = "\improper NTRL Owl - Analysis Lab"
 	icon_state = "devlab"
 	req_access = list(access_petrov_analysis)
 
 /area/shuttle/petrov/toxins
-	name = "\improper NTRL Polyp - Toxins Lab"
+	name = "\improper NTRL Owl - Toxins Lab"
 	icon_state = "toxstorage"
 	req_access = list(access_petrov_toxins)
 
 /area/shuttle/petrov/rnd
-	name = "\improper NTRL Polyp - Fabricator Lab"
+	name = "\improper NTRL Owl - Fabricator Lab"
 	icon_state = "devlab"
 
 /area/shuttle/petrov/isolation
-	name = "\improper SNTRL Polyp - Isolation Lab"
+	name = "\improper SNTRL Owl - Isolation Lab"
 	icon_state = "xeno_lab"
 
 /area/shuttle/petrov/phoron
-	name = "\improper NTRL Polyp - Sublimation Lab"
+	name = "\improper NTRL Owl - Sublimation Lab"
 	icon_state = "toxstorage"
 	req_access = list(access_petrov_phoron)
 
 /area/shuttle/petrov/custodial
-	name = "\improper NTRL Polyp - Custodial"
+	name = "\improper NTRL Owl - Custodial"
 	icon_state = "decontamination"
 
 /area/shuttle/petrov/equipment
-	name = "\improper NTRL Polyp - Equipment Storage"
+	name = "\improper NTRL Owl - Equipment Storage"
 	icon_state = "locker"
 
 /area/shuttle/petrov/eva
-	name = "\improper NTRL Polyp - EVA Storage"
+	name = "\improper NTRL Owl - EVA Storage"
 	icon_state = "locker"
 
 //Turbolift
@@ -972,6 +972,18 @@
 	sound_env = SMALL_SOFTFLOOR
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
+/area/crew_quarters/sleep/dorm1
+	name = "\improper Dorm 1"
+	icon_state = "Sleep"
+	sound_env = SMALL_ENCLOSED
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/crew_quarters/sleep/dorm2
+	name = "\improper Dorm 2"
+	icon_state = "Sleep"
+	sound_env = SMALL_ENCLOSED
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
 /area/crew_quarters/sleep/cryo/aux
 	name = "\improper First Deck Cryogenic Storage"
 	icon_state = "Sleep"
@@ -1192,7 +1204,7 @@
 // Command
 
 /area/bridge
-	name = "\improper NTSS Dagon Bridge"
+	name = "\improper NTEV Blue Jay Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 

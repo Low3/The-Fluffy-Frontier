@@ -25,7 +25,7 @@ var/datum/species/shapeshifter/promethean/prometheans
 	push_flags =       MONKEY|SLIME|SIMPLE_ANIMAL
 	species_flags =    SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_MINOR_CUT
 	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR | HAS_HAIR_COLOR | RADIATION_GLOWS
-	spawn_flags =      SPECIES_CAN_JOIN
+	spawn_flags =      SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
 
 	breath_type = null
 	poison_types = null
@@ -67,7 +67,7 @@ var/datum/species/shapeshifter/promethean/prometheans
 		/mob/living/carbon/human/proc/shapeshifter_select_gender
 		)
 
-	valid_transform_species = list(SPECIES_HUMAN, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_DIONA, "Monkey")
+	valid_transform_species = list(SPECIES_HUMAN, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_DIONA, SPECIES_RESOMI, "Monkey")
 	monochromatic = 1
 
 	var/heal_rate = 5 // Temp. Regen per tick.

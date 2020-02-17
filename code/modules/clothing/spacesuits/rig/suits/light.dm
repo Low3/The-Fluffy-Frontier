@@ -26,6 +26,10 @@
 	boot_type =  /obj/item/clothing/shoes/magboots/rig/light
 	glove_type = /obj/item/clothing/gloves/rig/light
 
+	sprite_sheets = list(
+		SPECIES_RESOMI = 'frontier/icons/mob/species/resomi/onmob_rig_back_resomi.dmi'
+		)
+
 /obj/item/clothing/suit/space/rig/light
 	name = "suit"
 	breach_threshold = 18 //comparable to voidsuits
