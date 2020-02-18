@@ -27,6 +27,7 @@
 #define IS_MANTID  7
 #define IS_SERGAL  8
 #define IS_RESOMI 9
+#define IS_VULP 10
 
 #define CE_STABLE        "stable"       // Inaprovaline
 #define CE_ANTIBIOTIC    "antibiotic"   // Spaceacilin
