@@ -18,18 +18,22 @@
 	// These values are passed on to all component pieces.
 	armor_type = /datum/extension/armor/rig
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_MINOR, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_MINOR,
 		laser = ARMOR_LASER_SMALL,
-		energy = ARMOR_ENERGY_MINOR, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_MINOR
 		)
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	max_heat_protection_temperature = SPACE_SUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	max_pressure_protection = RIG_MAX_PRESSURE
 	min_pressure_protection = 0
+
+	sprite_sheets = list(
+		SPECIES_RESOMI = 'frontier/icons/mob/species/resomi/onmob_rig_back_resomi.dmi'
+		)
 
 	siemens_coefficient = 0.2
 	permeability_coefficient = 0.1

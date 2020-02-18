@@ -43,7 +43,7 @@
 	)
 
 	//Species that the suits can be configured to fit.
-	var/list/species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_SERGAL)
+	var/list/species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_SERGAL,SPECIES_RESOMI,SPECIES_DIONA,SPECIES_IPC,SPECIES_NORTHERN,SPECIES_EASTERN,SPECIES_PROMETHEAN,SPECIES_ALIEN,SPECIES_YEOSA)
 
 	var/decl/item_modifier/target_modification
 	var/target_species

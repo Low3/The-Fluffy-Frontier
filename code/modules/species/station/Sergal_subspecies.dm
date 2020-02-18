@@ -5,12 +5,12 @@
 	darksight_range = 3
 	darksight_tint = DARKTINT_MODERATE
 	gluttonous = GLUT_TINY
-	breath_pressure = 20
+	breath_pressure = 18
 	slowdown = -0.25
 	brute_mod = 1.15
 	burn_mod = 1.15
 	blood_volume = 560
-	description = "WIP"
+	description = "PLACEHOLDER: A Sergal is a race of shark-like headed people from the world of Vilous universe. They are living in the planet Tal for now, although their distant ancestors originated from the planet Eltus."
 
 	descriptors = list(
 		/datum/mob_descriptor/height = 1,
@@ -32,11 +32,11 @@
 	darksight_range = 3
 	darksight_tint = DARKTINT_MODERATE
 	gluttonous = GLUT_TINY
-	breath_pressure = 20
+	breath_pressure = 18
 	brute_mod = 1
 	burn_mod = 1
 	blood_volume = 560
-	description = "WIP"
+	description = "PLACEHOLDER: A Sergal is a race of shark-like headed people from the world of Vilous universe. They are living in the planet Tal for now, although their distant ancestors originated from the planet Eltus."
 
 	descriptors = list(
 		/datum/mob_descriptor/height = 2,
