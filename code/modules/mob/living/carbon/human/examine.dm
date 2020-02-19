@@ -125,6 +125,10 @@
 	if(wear_id)
 		msg += "[T.He] [T.is] wearing [wear_id.get_examine_line()].\n"
 
+	//OOC Notes aka metadata
+	if(ooc_notes)
+		msg += "<span class = 'deptradio'>OOC Notes:</span> <a href='?src=\ref[src];ooc_notes=1'>\[View\]</a>\n"
+
 	//handcuffed?
 	if(handcuffed)
 		if(istype(handcuffed, /obj/item/weapon/handcuffs/cable))
