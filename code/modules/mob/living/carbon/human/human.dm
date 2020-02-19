@@ -431,6 +431,9 @@
 			show_inv(user)
 		return TOPIC_HANDLED
 
+	if(href_list["ooc_notes"])
+		src.Examine_OOC()
+
 	if (href_list["criminal"])
 		if(hasHUD(user, HUD_SECURITY))
 

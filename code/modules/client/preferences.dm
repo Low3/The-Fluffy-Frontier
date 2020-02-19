@@ -296,6 +296,8 @@ datum/preferences
 	character.gen_record = gen_record
 	character.exploit_record = exploit_record
 
+	character.ooc_notes = metadata //Frontier Add
+
 	if(LAZYLEN(character.descriptors))
 		for(var/entry in body_descriptors)
 			character.descriptors[entry] = body_descriptors[entry]

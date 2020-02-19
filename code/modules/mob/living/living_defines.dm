@@ -52,3 +52,5 @@
 	var/obj/screen/cells = null
 
 	var/last_resist = 0
+
+	var/ooc_notes = null
