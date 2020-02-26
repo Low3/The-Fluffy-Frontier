@@ -219,12 +219,19 @@
 			remote_control = 1
 
 	//Костыль на костыле с целью фикса атмоса
-	if ((environment.gas[GAS_NITROGEN]*R_IDEAL_GAS_EQUATION*environment.temperature/environment.volume) > 80)
-		for(var/device_id in alarm_area.air_scrub_names)
-			send_signal(device_id, list("n2_scrub" = 1))
-	else 
-		for(var/device_id in alarm_area.air_scrub_names)
-			send_signal(device_id, list("n2_scrub" = 0))
+	if(environment.return_pressure() > ONE_ATMOSPHERE*0.5)
+		if ((environment.gas[GAS_NITROGEN]*R_IDEAL_GAS_EQUATION*environment.temperature/environment.volume) > 82)
+			for(var/device_id in alarm_area.air_scrub_names)
+				send_signal(device_id, list("n2_scrub" = 1))
+		else 
+			for(var/device_id in alarm_area.air_scrub_names)
+				send_signal(device_id, list("n2_scrub" = 0))
+		if ((environment.gas[GAS_OXYGEN]*R_IDEAL_GAS_EQUATION*environment.temperature/environment.volume) > 23)
+			for(var/device_id in alarm_area.air_scrub_names)
+				send_signal(device_id, list("o2_scrub" = 1))
+		else 
+			for(var/device_id in alarm_area.air_scrub_names)
+				send_signal(device_id, list("o2_scrub" = 0))
 
 	return
 
