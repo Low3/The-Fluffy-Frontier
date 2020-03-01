@@ -218,14 +218,6 @@
 		if(RCON_YES)
 			remote_control = 1
 
-	//Костыль на костыле с целью фикса атмоса
-	if ((environment.gas[GAS_NITROGEN]*R_IDEAL_GAS_EQUATION*environment.temperature/environment.volume) > 80)
-		for(var/device_id in alarm_area.air_scrub_names)
-			send_signal(device_id, list("n2_scrub" = 1))
-	else 
-		for(var/device_id in alarm_area.air_scrub_names)
-			send_signal(device_id, list("n2_scrub" = 0))
-
 	return
 
 /obj/machinery/alarm/proc/handle_heating_cooling(var/datum/gas_mixture/environment)

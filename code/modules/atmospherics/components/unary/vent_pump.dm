@@ -410,7 +410,7 @@
 		popup.open()
 		return
 	else
-		return ..()	
+		return ..()
 
 /obj/machinery/atmospherics/unary/vent_pump/proc/get_console_data()
 	. = list()
@@ -433,7 +433,7 @@
 		to_chat(user, "<span class='notice'>The multitool emits a short beep confirming the change.</span>")
 		queue_icon_update() //force the icon to refresh after changing directional mode.
 		return TOPIC_REFRESH
-	if(href_list["settag"])		
+	if(href_list["settag"])
 		var/t = sanitizeSafe(input(user, "Enter the ID tag for [src.name]", src.name, id_tag), MAX_NAME_LEN)
 		if(t && CanInteract(user, state))
 			id_tag = t
