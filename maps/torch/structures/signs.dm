@@ -91,3 +91,28 @@
 	. = ..()
 	if (distance <= 2 && fallen.len)
 		to_chat(user, "<b>The fallen:</b> [jointext(fallen, "<br>")]")
+
+
+// VORCH
+
+/obj/effect/floor_decal/ntlogo
+	alpha = 230
+	icon = 'frontier/icons/obj/nt_floor.dmi'
+	icon_state = "center"
+
+/obj/structure/sign/double/ntflag
+	name = "Nano-Trasen Flag"
+	desc = "The flag of the Nano-Trasen, a symbol of many things to many people."
+	icon = 'frontier/icons/obj/nt-decals.dmi'
+
+/obj/structure/sign/double/ntflag/left
+	icon_state = "solgovflag-left"
+
+/obj/structure/sign/double/ntflag/right
+	icon_state = "solgovflag-right"
+
+/obj/structure/sign/double/ntflag/left/gold
+	icon_state = "solgovflag-left-gold"
+
+/obj/structure/sign/double/ntflag/right/gold
+	icon_state = "solgovflag-right-gold"
