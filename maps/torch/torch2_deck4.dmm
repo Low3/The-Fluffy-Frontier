@@ -798,7 +798,7 @@
 	dir = 9
 	},
 /obj/machinery/newscaster{
-	pixel_x = -32
+	pixel_x = -28
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/captainmess)
@@ -1217,7 +1217,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster{
-	pixel_x = -32
+	pixel_x = -28
 	},
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -2279,7 +2279,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/captainmess)
 "hm" = (
-/obj/item/weapon/tableflag,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -3766,7 +3765,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/machinery/newscaster{
-	pixel_y = 32
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
@@ -3832,7 +3831,7 @@
 "mz" = (
 /obj/machinery/light,
 /obj/machinery/newscaster/security_unit{
-	pixel_y = -32
+	pixel_y = -30
 	},
 /obj/effect/floor_decal/corner/brown/half,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4362,13 +4361,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
-"os" = (
-/obj/structure/sign/solgov{
-	pixel_x = 32;
-	pixel_y = -32
-	},
-/turf/space,
-/area/space)
 "ot" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
@@ -5085,7 +5077,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/newscaster{
-	pixel_x = 32
+	pixel_x = 28
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	icon_state = "warningcorner";
@@ -6132,16 +6124,6 @@
 	frequency = 1331;
 	id_tag = "nuke_shuttle_dock_pump"
 	},
-/obj/structure/sign/double/solgovflag/left{
-	pixel_y = -32
-	},
-/turf/simulated/floor,
-/area/hallway/primary/fourthdeck/fore)
-"tO" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/sign/double/solgovflag/right{
-	pixel_y = -32
-	},
 /turf/simulated/floor,
 /area/hallway/primary/fourthdeck/fore)
 "tP" = (
@@ -7081,13 +7063,6 @@
 /obj/effect/shuttle_landmark/merc/dock,
 /turf/space,
 /area/space)
-"wx" = (
-/obj/structure/sign/solgov{
-	pixel_x = 32;
-	pixel_y = 32
-	},
-/turf/space,
-/area/space)
 "wy" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -7296,7 +7271,7 @@
 	announcementConsole = 1;
 	department = "Security";
 	departmentType = 5;
-	pixel_y = 30
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
@@ -7541,7 +7516,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster{
-	pixel_y = 32
+	pixel_y = 30
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -9302,7 +9277,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster{
-	pixel_x = -32
+	pixel_x = -28
 	},
 /obj/machinery/light{
 	dir = 8
@@ -9912,7 +9887,7 @@
 	dir = 2
 	},
 /obj/machinery/newscaster{
-	pixel_y = 32
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
@@ -11271,7 +11246,7 @@
 	dir = 4
 	},
 /obj/machinery/newscaster{
-	pixel_x = -32
+	pixel_x = -28
 	},
 /obj/machinery/light{
 	dir = 8
@@ -11305,7 +11280,7 @@
 /obj/random/single/lighter,
 /obj/machinery/newscaster{
 	pixel_x = 0;
-	pixel_y = 32
+	pixel_y = 30
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11871,10 +11846,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
-"Nv" = (
-/obj/structure/sign/solgov,
-/turf/simulated/wall/r_wall/hull,
-/area/hallway/primary/fourthdeck/fore)
 "Nw" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 4
@@ -12051,7 +12022,7 @@
 	dir = 8
 	},
 /obj/machinery/newscaster{
-	pixel_x = 32
+	pixel_x = 28
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
@@ -12821,10 +12792,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/starboard)
-"Qd" = (
-/obj/structure/sign/solgov,
-/turf/simulated/wall/r_wall/hull,
-/area/hallway/primary/fourthdeck/aft)
 "Qe" = (
 /obj/effect/floor_decal/corner/brown/mono,
 /obj/structure/closet/secure_closet/decktech,
@@ -14230,7 +14197,7 @@
 /area/maintenance/fourthdeck/aft)
 "TE" = (
 /obj/machinery/newscaster/security_unit{
-	pixel_y = -32
+	pixel_y = -30
 	},
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -15734,7 +15701,7 @@
 	pixel_x = 21
 	},
 /obj/machinery/newscaster/security_unit{
-	pixel_y = -32
+	pixel_y = -30
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/deckchief)
@@ -16521,7 +16488,7 @@
 /area/hallway/primary/fourthdeck/aft)
 "ZF" = (
 /obj/machinery/newscaster{
-	pixel_x = -32
+	pixel_x = -28
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/commissary)
@@ -25481,13 +25448,13 @@ aa
 aa
 aa
 aa
-os
 aa
 aa
 aa
 aa
 aa
-wx
+aa
+aa
 aa
 aa
 aa
@@ -26091,7 +26058,7 @@ ng
 WZ
 qQ
 sl
-tO
+tQ
 WZ
 ng
 ng
@@ -28498,7 +28465,7 @@ aa
 aa
 aa
 aa
-Nv
+WZ
 WZ
 cv
 ek
@@ -28530,7 +28497,7 @@ FZ
 ek
 YK
 WZ
-Nv
+WZ
 aa
 aa
 aa
@@ -40611,7 +40578,7 @@ aa
 aa
 aa
 aa
-Qd
+LA
 LA
 LA
 LA
@@ -40657,7 +40624,7 @@ JO
 LA
 LA
 LA
-Qd
+LA
 aa
 aa
 aa
@@ -41217,7 +41184,7 @@ aa
 aa
 aa
 aa
-Qd
+LA
 LA
 LA
 LA
@@ -41263,7 +41230,7 @@ JR
 LA
 LA
 LA
-Qd
+LA
 aa
 aa
 aa
