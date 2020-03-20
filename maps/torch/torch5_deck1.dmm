@@ -423,7 +423,7 @@
 "aig" = (/obj/structure/table/standard,/obj/machinery/button/windowtint{id = "recov_windows"; pixel_x = -12; pixel_y = 26; pixel_z = 0},/obj/effect/floor_decal/corner/pink{dir = 5},/obj/structure/flora/pottedplant/small{pixel_y = 10},/obj/machinery/newscaster{pixel_y = 30},/turf/simulated/floor/tiled/white,/area/medical/subacute)
 "aih" = (/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/structure/table/standard,/obj/machinery/cell_charger,/turf/simulated/floor/tiled/white,/area/medical/locker)
 "aii" = (/obj/structure/table/standard,/obj/item/weapon/defibrillator/loaded,/obj/effect/floor_decal/corner/pink{dir = 5},/obj/machinery/recharger,/turf/simulated/floor/tiled/white,/area/medical/sleeper)
-"aij" = (/obj/machinery/newscaster{pixel_x = -28},/obj/machinery/computer/arcade,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/crew_quarters/sleep/cryo/aux)
+"aij" = (/obj/machinery/newscaster{pixel_x = 28},/obj/machinery/computer/arcade,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/crew_quarters/sleep/cryo/aux)
 "aik" = (/obj/machinery/newscaster{pixel_x = -28},/turf/simulated/floor/tiled/white,/area/rnd/research)
 "ail" = (/obj/machinery/reagentgrinder,/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/item/stack/material/phoron{amount = 5},/obj/machinery/light{dir = 1},/obj/machinery/newscaster{pixel_y = 30},/turf/simulated/floor/tiled/white/monotile,/area/rnd/xenobiology)
 "aim" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/command/conference)
