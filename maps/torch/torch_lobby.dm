@@ -21,5 +21,15 @@
 		/music_track/astrometrics,
 		/music_track/astrometrics/a_place,
 		/music_track/astrometrics/engage,
-		/music_track/lonely_satellite
+		/music_track/lonely_satellite,
+		/music_track/carmenmirandasghost, //Frontier add start
+		/music_track/thunderbirds,
+		/music_track/dawsonschristian,
+		/music_track/flyinghigh,
+		/music_track/flytothemoon,
+		/music_track/gaytony,
+		/music_track/goodbyemoonmen,
+		/music_track/oceanman,
+		/music_track/rocketridersprayer,
+		/music_track/shootingstars //Frontier add end
 	)
